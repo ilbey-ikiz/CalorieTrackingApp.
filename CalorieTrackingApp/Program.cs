@@ -1,0 +1,21 @@
+using WndPL.Forms;
+using WndPL.Forms.Main_Forms.ReportForms;
+using WndPL.Forms.ReportForms;
+
+namespace Grup5_KaloriTakipProgrami
+{
+    internal static class Program
+    {
+        /// <summary>
+        ///  The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            // To customize application configuration such as set high DPI settings or default font,
+            // see https://aka.ms/applicationconfiguration.
+            ApplicationConfiguration.Initialize();
+            Application.Run(new LogIn());
+        }
+    }
+}
